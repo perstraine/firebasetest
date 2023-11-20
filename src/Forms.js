@@ -33,6 +33,7 @@ const Form = () => {
         }).catch(error => {
             console.error('An error occurred:', error);
         });
+        console.log(res)
     }
     return (
         <div className="contactFormWrapper">
